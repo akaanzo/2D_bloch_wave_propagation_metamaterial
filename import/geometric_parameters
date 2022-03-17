@@ -1,0 +1,7 @@
+l 1[mm] length
+h0 .1*l ""
+l1 l "length x direction"
+l2 2*l "length y direction"
+h1 h0 "thickness x direction"
+h2 h0 "thickness y direction"
+h3 .1*h0 "thickness z direction"

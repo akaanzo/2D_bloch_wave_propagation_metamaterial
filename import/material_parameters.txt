@@ -1,0 +1,3 @@
+E0 1[GPa] "Young modulus"
+nu0 .3 "Poisson ratio"
+rho0 1000[kg/m^3] "Mass density"
