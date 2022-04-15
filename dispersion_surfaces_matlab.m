@@ -19,6 +19,7 @@ title('Shape mode:', num2str(i-2))
 xlabel('kx \cdot l/\pi [-]')
 ylabel('ky \cdot l/\pi [-]')
 zlabel('\Omega = \omega \cdot l/c [-]')
+colorbar
 grid on
 
 % Save figures
