@@ -1,0 +1,45 @@
+L1,1[m],length of horizontal beams
+A1,1[m^2],cross-section area of horizontal beams
+EA1,1[N],axial stifness of horizontal beams
+gamma1,1[kg/m],linear mass density of horizontal beams
+xi,1,L2/L1
+chi,1,EA2/EA1
+mu,1,gamma2/gamma1
+lambda1,20,slenderness of horizontal beams: L1*sqrt(EA1/EI1)
+lambda2,20,slenderness of vertical beams : L2*sqrt(EA2/EI2)
+p1,0,nondimensional prestress of horizontal beams: P1*L1^2/EI1
+p2,0,nondimensional prestress of vertical beams: P2*L2^2/EI2
+kappa1,10^5,nondimensional spring stiffness of horizontal beams: k1*L1^3/EI1
+kappa2,10^5,nondimensional spring stiffness of vertical beams: k2*L2^3/EI2
+L2,xi*L1,length of vertical beams
+A2,chi*A1,cross-section area of vertical beams
+EA2,chi*EA1,axial stifness of vertical beams
+gamma2,mu*gamma1,linear mass density of vertical beams
+EI1,L1^2*EA1/lambda1^2,bending stifness of horizontal beams
+EI2,L2^2*EA2/lambda2^2,bending stifness of vertical beams
+P1,p1*EI1/L1^2,prestress in horizontal beams
+P2,p2*EI2/L2^2,prestress in vertical beams
+kmolla1,kappa1*EI1/L1^3,spring stiffness of horizontal beams
+kmolla2,kappa2*EI2/L2^3,spring stiffness of vertical beams
+rho1,gamma1/A1,density of material of horizontal beams
+rho2,gamma2/A2,density of material of vertical beams
+E1,EA1/A1,Young modulus of material of horizontal beams
+E2,EA2/A2,Young modulus of material of vertical beams
+nu1,0.,Poisson ratio of material of horizontal beams
+nu2,0.,Poisson ratio of material of vertical beams
+I1,EI1/E1,cross-section second area moment of horizontal beams
+I2,EI2/E2,cross-section second area moment of vertical beams
+M,1[N*m],
+phi1,0[deg],
+phi2,0[deg],
+phi3,90[deg],
+phi4,90[deg],
+a11,L1,
+a12,0,
+a21,0,
+a22,L2,
+theta,2,
+k,0[1/m],
+k1,3,
+k2,-1,
+omega_ref,sqrt(E1/rho1)/L1,

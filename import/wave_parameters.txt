@@ -1,5 +1,0 @@
-n 3 ""
-k 0 ""
-kx k*pi/l1 ""
-ky k*pi/l2 ""
-step n/100 ""

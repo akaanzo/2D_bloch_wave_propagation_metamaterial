@@ -1,0 +1,5 @@
+,Triangular coarse,Quad coarse,Triangular adapted 1,Triangular adapted 2
+nodes num,90,36,1088,3729
+skewness,0.7919,0.9772,0.8934,0.8633
+max angle,0.8961,0.9772,0.9389,0.9203
+growth rate,0.7855,0.9591,0.8822,0.8545
