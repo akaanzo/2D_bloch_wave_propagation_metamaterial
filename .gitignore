@@ -1,5 +1,6 @@
 *.lock
 examples
-**eigenvalues_00.mph
-**3D_00.mph
-#**prestressed**.mph
+*.mph
+2022_matteo_franzoi/
+*.bib
+*.pdf
